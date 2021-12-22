@@ -38,11 +38,11 @@ a 和 b 由小写英文字母组成
 
 举个栗子🌰：
 
-a = "aabaa"
-b = "aaab"
+- a = "aabaa"
+- b = "aaab"
 
-aaab 匹配 aaba  ❌
-aaab 匹配 abaa  ❌
+1. aaab 匹配 aaba  ❌
+2. aaab 匹配 abaa  ❌
 
 扩容成 aabaaaabaa
 
@@ -51,9 +51,9 @@ aa baaaabaa
 
 从 b开始匹配 
 
-aaab 匹配  baaa ❌
-aaab 匹配  aaaa ❌
-aaab 匹配  aaab ✅
+3. aaab 匹配  baaa ❌
+4. aaab 匹配  aaaa ❌
+5. aaab 匹配  aaab ✅
 
 其实往后再看下来 最终会回复到 aaba这个重复匹配上 所以
 
