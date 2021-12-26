@@ -88,9 +88,9 @@ func manacherString(s string) []byte {
 	for i, index := 0, 0; i < len(chars); i++ {
 		//字符串转换，添加占位符
 		if (i & 1) == 0 {
-			char[i] = '#'
+			chars[i] = '#'
 		} else {
-			char[i] = s[index]
+			chars[i] = s[index]
 			index++
 		}
 	}
